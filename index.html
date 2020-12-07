@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test verbos irregulares en ingles</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    <style>
+        body {
+            background-image: url("img/wallpaper02.jpg");
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <button class="btn btn-block btn-dark">
+                <img src="img/UK_4.png">
+                Test verbos irregulares
+                <img src="img/UK_4.png">
+            </button>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col"><button class="btn btn-block btn-primary">Elige el nivel en el que quieras jugar</button></div>
+            <div class="col"></div>
+        </div>
+        <br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-2"><button class="btn btn-primary" onclick="cambiaPantalla(10)">10</button></div>
+                <div class="col-2"><button class="btn btn-primary" onclick="cambiaPantalla(20)">20</button></div>
+                <div class="col-2"><button class="btn btn-primary" onclick="cambiaPantalla(30)">30</button></div>
+                <div class="col-2"><button class="btn btn-primary" onclick="cambiaPantalla(40)">40</button></div>
+                <div class="col-2"><button class="btn btn-primary" onclick="cambiaPantalla(50)">50</button></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-2"><button class="btn btn-primary" onclick="cambiaPantalla(60)">60</button></div>
+                <div class="col-2"><button class="btn btn-primary" onclick="cambiaPantalla(70)">70</button></div>
+                <div class="col-2"><button class="btn btn-primary" onclick="cambiaPantalla(80)">80</button></div>
+                <div class="col-2"><button class="btn btn-primary" onclick="cambiaPantalla(140)">140</button></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/listaVerbos.js"></script>
+    <script>
+
+        function cambiaPantalla(nPreguntas) {
+            window.location.href = "pagina02.html" + "#" + nPreguntas
+        }
+
+    </script>
+</body>
+
+</html>
