@@ -9,6 +9,7 @@ var marcador = 0;
 var maxiEstrella = 0;
 var preguntasContestadas = 1;
 
+
 function comeBack() {
     window.location.href = 'index.html'
 }

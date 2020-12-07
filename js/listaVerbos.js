@@ -8,6 +8,7 @@ var verbos = [
 ["begin","began","begun","empezar"],
 ["bend","bent","bent","doblar(se)"],
 ["bet","bet","bet","apostar"],
+
 ["bid","bid","bid","pujar"],
 ["bind","bound","bound","encuadernar"],
 ["bite","bit","bitten","morder"],
